@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		4D1897BC223F4E230089A8F4 /* Mibberai.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1897BA223F4E230089A8F4 /* Mibberai.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D1897CA223F4ECB0089A8F4 /* FaceHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897C3223F4ECB0089A8F4 /* FaceHighlighter.swift */; };
+		4D1897CB223F4ECB0089A8F4 /* FaceScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897C4223F4ECB0089A8F4 /* FaceScanner.swift */; };
+		4D1897CC223F4ECB0089A8F4 /* RectangleHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897C5223F4ECB0089A8F4 /* RectangleHighlighter.swift */; };
+		4D1897CD223F4ECB0089A8F4 /* DocumentScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897C6223F4ECB0089A8F4 /* DocumentScanner.swift */; };
+		4D1897CE223F4ECB0089A8F4 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897C7223F4ECB0089A8F4 /* Camera.swift */; };
+		4D1897CF223F4ECB0089A8F4 /* Highlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897C8223F4ECB0089A8F4 /* Highlighter.swift */; };
+		4D1897D0223F4ECB0089A8F4 /* CameraSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897C9223F4ECB0089A8F4 /* CameraSession.swift */; };
+		4D1897D3223F4F5F0089A8F4 /* VisionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897D2223F4F5F0089A8F4 /* VisionObserver.swift */; };
+		4D1897E3223F51350089A8F4 /* VNRectangleObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897D8223F51350089A8F4 /* VNRectangleObservation.swift */; };
+		4D1897E6223F51350089A8F4 /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897DB223F51350089A8F4 /* CIImage.swift */; };
+		4D1897E8223F51350089A8F4 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897DD223F51350089A8F4 /* CGPoint.swift */; };
+		4D1897E9223F51350089A8F4 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1897DE223F51350089A8F4 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D1897B7223F4E230089A8F4 /* Mibberai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mibberai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1897BA223F4E230089A8F4 /* Mibberai.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mibberai.h; sourceTree = "<group>"; };
 		4D1897BB223F4E230089A8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1897C3223F4ECB0089A8F4 /* FaceHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceHighlighter.swift; sourceTree = "<group>"; };
+		4D1897C4223F4ECB0089A8F4 /* FaceScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceScanner.swift; sourceTree = "<group>"; };
+		4D1897C5223F4ECB0089A8F4 /* RectangleHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleHighlighter.swift; sourceTree = "<group>"; };
+		4D1897C6223F4ECB0089A8F4 /* DocumentScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentScanner.swift; sourceTree = "<group>"; };
+		4D1897C7223F4ECB0089A8F4 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		4D1897C8223F4ECB0089A8F4 /* Highlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highlighter.swift; sourceTree = "<group>"; };
+		4D1897C9223F4ECB0089A8F4 /* CameraSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraSession.swift; sourceTree = "<group>"; };
+		4D1897D2223F4F5F0089A8F4 /* VisionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObserver.swift; sourceTree = "<group>"; };
+		4D1897D8223F51350089A8F4 /* VNRectangleObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VNRectangleObservation.swift; sourceTree = "<group>"; };
+		4D1897DB223F51350089A8F4 /* CIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIImage.swift; sourceTree = "<group>"; };
+		4D1897DD223F51350089A8F4 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		4D1897DE223F51350089A8F4 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,9 @@
 			isa = PBXGroup;
 			children = (
 				4D1897B9223F4E230089A8F4 /* Mibberai */,
+				4D1897C2223F4ECB0089A8F4 /* Camera */,
+				4D1897D1223F4F5F0089A8F4 /* Vision */,
+				4D1897D4223F51350089A8F4 /* Extensions */,
 				4D1897B8223F4E230089A8F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +77,42 @@
 				4D1897BB223F4E230089A8F4 /* Info.plist */,
 			);
 			path = Mibberai;
+			sourceTree = "<group>";
+		};
+		4D1897C2223F4ECB0089A8F4 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4D1897C3223F4ECB0089A8F4 /* FaceHighlighter.swift */,
+				4D1897C4223F4ECB0089A8F4 /* FaceScanner.swift */,
+				4D1897C5223F4ECB0089A8F4 /* RectangleHighlighter.swift */,
+				4D1897C6223F4ECB0089A8F4 /* DocumentScanner.swift */,
+				4D1897C7223F4ECB0089A8F4 /* Camera.swift */,
+				4D1897C8223F4ECB0089A8F4 /* Highlighter.swift */,
+				4D1897C9223F4ECB0089A8F4 /* CameraSession.swift */,
+			);
+			name = Camera;
+			path = Mibberai/Camera;
+			sourceTree = "<group>";
+		};
+		4D1897D1223F4F5F0089A8F4 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				4D1897D2223F4F5F0089A8F4 /* VisionObserver.swift */,
+				4D1897D8223F51350089A8F4 /* VNRectangleObservation.swift */,
+			);
+			name = Vision;
+			path = Mibberai/Vision;
+			sourceTree = "<group>";
+		};
+		4D1897D4223F51350089A8F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D1897DB223F51350089A8F4 /* CIImage.swift */,
+				4D1897DD223F51350089A8F4 /* CGPoint.swift */,
+				4D1897DE223F51350089A8F4 /* UIImage.swift */,
+			);
+			name = Extensions;
+			path = Mibberai/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1897CC223F4ECB0089A8F4 /* RectangleHighlighter.swift in Sources */,
+				4D1897CF223F4ECB0089A8F4 /* Highlighter.swift in Sources */,
+				4D1897CE223F4ECB0089A8F4 /* Camera.swift in Sources */,
+				4D1897CD223F4ECB0089A8F4 /* DocumentScanner.swift in Sources */,
+				4D1897D0223F4ECB0089A8F4 /* CameraSession.swift in Sources */,
+				4D1897CA223F4ECB0089A8F4 /* FaceHighlighter.swift in Sources */,
+				4D1897E6223F51350089A8F4 /* CIImage.swift in Sources */,
+				4D1897E3223F51350089A8F4 /* VNRectangleObservation.swift in Sources */,
+				4D1897CB223F4ECB0089A8F4 /* FaceScanner.swift in Sources */,
+				4D1897E8223F51350089A8F4 /* CGPoint.swift in Sources */,
+				4D1897E9223F51350089A8F4 /* UIImage.swift in Sources */,
+				4D1897D3223F4F5F0089A8F4 /* VisionObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
