@@ -55,9 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				4D1897B9223F4E230089A8F4 /* Mibberai */,
-				4D1897C2223F4ECB0089A8F4 /* Camera */,
-				4D1897D1223F4F5F0089A8F4 /* Vision */,
-				4D1897D4223F51350089A8F4 /* Extensions */,
 				4D1897B8223F4E230089A8F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +70,9 @@
 		4D1897B9223F4E230089A8F4 /* Mibberai */ = {
 			isa = PBXGroup;
 			children = (
+				4D1897C2223F4ECB0089A8F4 /* Camera */,
+				4D1897D1223F4F5F0089A8F4 /* Vision */,
+				4D1897D4223F51350089A8F4 /* Extensions */,
 				4D1897BA223F4E230089A8F4 /* Mibberai.h */,
 				4D1897BB223F4E230089A8F4 /* Info.plist */,
 			);
@@ -90,8 +90,7 @@
 				4D1897C8223F4ECB0089A8F4 /* Highlighter.swift */,
 				4D1897C9223F4ECB0089A8F4 /* CameraSession.swift */,
 			);
-			name = Camera;
-			path = Mibberai/Camera;
+			path = Camera;
 			sourceTree = "<group>";
 		};
 		4D1897D1223F4F5F0089A8F4 /* Vision */ = {
@@ -100,8 +99,7 @@
 				4D1897D2223F4F5F0089A8F4 /* VisionObserver.swift */,
 				4D1897D8223F51350089A8F4 /* VNRectangleObservation.swift */,
 			);
-			name = Vision;
-			path = Mibberai/Vision;
+			path = Vision;
 			sourceTree = "<group>";
 		};
 		4D1897D4223F51350089A8F4 /* Extensions */ = {
@@ -111,8 +109,7 @@
 				4D1897DD223F51350089A8F4 /* CGPoint.swift */,
 				4D1897DE223F51350089A8F4 /* UIImage.swift */,
 			);
-			name = Extensions;
-			path = Mibberai/Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
