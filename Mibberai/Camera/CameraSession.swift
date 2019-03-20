@@ -1,4 +1,3 @@
-import UIKit
 import AVFoundation
 
 public class CameraSession: NSObject {

@@ -1,4 +1,3 @@
-import UIKit
 import AVFoundation
 
 public protocol CameraDelegate: class {

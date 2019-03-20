@@ -1,6 +1,6 @@
-import UIKit
-import AVFoundation
+import Yarngun
 import Vision
+import AVFoundation
 
 public class RectangleHighlighter: Highlighter {
 	public func execute(using buffer: CMSampleBuffer) {
