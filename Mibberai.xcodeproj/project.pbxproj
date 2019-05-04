@@ -168,6 +168,7 @@
 				TargetAttributes = {
 					4D1897B6223F4E230089A8F4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -177,6 +178,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4D1897AD223F4E230089A8F4;
 			productRefGroup = 4D1897B8223F4E230089A8F4 /* Products */;
@@ -376,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nyasa.Mibberai;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -401,7 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nyasa.Mibberai;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
